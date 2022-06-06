@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label,p,button{color: black;}
+    </style>
+    <link rel="stylesheet" href="bootstrap.css" media="all">
+</head>
+<body bgcolor="beige">
+   <center><h1><u>Formulaire d'inscription</u></h1></center><br><br>
+   <p><b><font size="+2">Etat civil</font></b></p>
+   <fieldset>
+       <div class="col-md-4 mb-4">
+      <label for="name">Nom:</label>
+      <input style="text" id="Nom">
+    <br>
+      <br>
+      <label for="Prenoms">Pr&eacute;noms:</label>
+      <input style="text" id="Pr&eacute;noms"><br><br>
+       <label for="birthday">Date de naissance</label>
+        <input type="number" id="Date de naissance" placeholder="## / $$ / §§">  
+   </fieldset><br>
+   <p><b><font size="+2">Profil</font></b></p>
+      <p>
+        <fieldset>
+          <div class="from-row">
+            <div class="col-md-4 mb-3">
+             <label for="e.mail">E.mail:</label>
+             <input type="mail" id="E.mail">
+            </div><br><br>
+          <div class="col-md-4 mb-3">
+       <label for="password">Votre mot de passe</label>
+       <input type="password" id="password" placeholder="password">
+          </div>
+       <br><br>
+       <div class="col-md-4 mb-3">
+        <label for="file">Photo:</label><input type="file" id="pictures">
+      </div>
+          </div>
+        </fieldset>
+       <p><b>Sexe</b></p>
+       <input type="radio" id="Sexe">
+       <label for="sex">Masculin</label><br>
+       <input type="radio" id="Sex">
+       <label for="sex">F&eacute;minin</label><br><br>
+       <label for="country">Pays d'origine:</label>
+          <select>
+            <option>B&eacute;nin</option>
+            <option>Togo</option>
+            <option>C&ocirc;te-Ivoir</option>
+            <option>Ghana</option>
+            <option>Niger</option>
+            <option>Nig&eacute;ria</option>
+            <option>Cameroun</option>
+            <option>Burkina-Faso</option>
+            <option>Mali</option>
+            <option>Maroc</option>
+            <option>R&eacute;publique D&eacute;mocratique du Congo</option>
+            <option>R&eacute;publique du Congo</option>
+            <option>Gabon</option>
+            <option>Tchad</option>
+            <option>Alg&eacute;rie</option>
+            <option>Tunisie</option>
+            <option>Egypte</option>
+            <option>Cap-Vert</option>
+            <option>Guin&eacute;e</option>
+            <option>Guin&eacute;e Bissaeu</option>
+            <option>Burundi</option>
+            <option>Rwanda</option>
+            <option>Sud Afrique</option>
+            <option>France</option>
+            <option>Russie</option>
+            <option>Ukraine</option>
+             <option>Moritanie</option>
+             <option>Angola</option>
+             <option>Peru</option>
+             <option>Etats Unies</option>
+             <option>Allemagne</option>
+             <option>Cor&eacute;e du Nord</option>
+          </select><br><br>
+          <p><b>Passe-temps pr&eacute;f&eacute;r&eacute;e:</b></p>
+          <input type="checkbox" id="Musique">
+        <label for="Music">Musique</label><br>
+        <input type="checkbox" id="foot">
+        <label for="foot">Football</label><br>
+        <input type="checkbox" id="Bask">
+        <label for="bask">Basketball</label><br>
+         <input type="checkbox" id="program">
+         <label for="Program">Programmation</label>
+        <br><br>
+        <center>
+          <a href="salut.html"><input type="submit" value="Quitter" class="button 2"></a>
+         <a href="page.html"><input type="submit" value="Envoyer" class="button 1"></a>
+        <a href="hola.html" ><input type="reset" value="Effacer" class="button 3"></a>
+        </center>
+    </body>
+</html>
